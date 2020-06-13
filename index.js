@@ -1,5 +1,5 @@
 var fs = require("fs");
-var port = 8080;
+var port = process.env.PORT || 3003;
 var express = require("express");
 
 var app = express();
