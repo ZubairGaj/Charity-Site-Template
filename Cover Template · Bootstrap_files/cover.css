@@ -19,6 +19,9 @@ a{
 /*
  * Base structure
  */
+.main{
+  text-align: left
+}
 
 html,
 body {
